@@ -1,4 +1,5 @@
 
+
 //Exercício 1 - pdf aula Operadores e Lógica de Programação
 /*
 var soma = 3 + 4;
@@ -60,6 +61,7 @@ console.log(idadeEm2050);
 */
 
 //Exercícios de interpretação de código
+
 /*
 //1 - Leia o código abaixo. Indique todas as mensagens impressas no console, SEM EXECUTAR o programa.
 
@@ -102,6 +104,7 @@ console.log(soma)
 */
 
 //- Exercícios de escrita de código
+
 /*
 //1. Faça um programa que: a) Pergunte a idade do usuário, b) Pergunte a idade do seu melhor amigo ou da sua melhor amiga, (...)
 
@@ -134,9 +137,9 @@ console.log('sua idade em dias é de: '+ idadeDias);
 console.log('sua idade em horas é de: '+ idadeHoras);
 */
 
+/*
 //4. Faça um programa que pergunte ao usuário dois números. Em seguida, faça as operações e imprima no console as seguintes mensagens seguidas pelo true ou false:
 
-/*
 let primeiroNum = Number(prompt('Informe um número: '));
 let segundoNum = Number(prompt('Informe outro número: '));
 
@@ -148,8 +151,9 @@ console.log('O segundo numero é divisível pelo primeiro?', (segundoNum % prime
 
 //DESAFIOS
 
-//1. Para este exercício, será necessário o conhecimento das fórmulas para mudar a unidade de temperatura entre Graus Celsius(°C),  Graus Fahrenheit(°F) e Kelvin(K) (...)
 /*
+//1. Para este exercício, será necessário o conhecimento das fórmulas para mudar a unidade de temperatura entre Graus Celsius(°C),  Graus Fahrenheit(°F) e Kelvin(K) (...)
+
 let grausK = (77 - 32)*(5/9) + 273.15;
 console.log('O valor de 77°F em  K é de: '+grausK+'K');
 let grausF = (80)*(9/5)+32;
@@ -165,17 +169,18 @@ let grausK3 = grausC + 273.15;
 console.log('o valor de '+grausC+'°C em °F e K é de: '+grausF3+'°F e '+grausK3+'K');
 */
 
+/*
 //2. Quilowatt-hora é uma unidade de energia; e é muito utilizada para se determinar o consumo de energia elétrica em residências. Sabe-se que o quilowatt-hora de energia custa R$0.05. Faça um programa que receba a quantidade de quilowatts consumida por uma residência.
 //a) Calcule e mostre o valor a ser pago por uma residência que consuma 280 quilowatt-hora
 //b) Altere o programa para receber mais um valor: a porcentagem de desconto. Calcule e mostre o valor a ser pago pela mesma residência acima considerando 15% de desconto
 
-/*
 let valorKWH = 0.05;
 let valor = valorKWH * 280;
 console.log('Valor a ser pago por uma residência que consuma 280 quilowatt-hora é de: '+valor); 
 let desconto = valor - (valor * 0.15);
 console.log('Valor a ser pago por uma residência que consuma 280 quilowatt-hora COM DESCONTO é de: '+desconto); 
 */
+
 
 //3. Um grande problema que o mundo tem atualmente é a quantidade de unidades que existem para representar a mesma coisa. (...)
 

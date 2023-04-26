@@ -173,7 +173,7 @@ console.log('o valor de '+grausC+'°C em °F e K é de: '+grausF3+'°F e '+graus
 let valorKWH = 0.05;
 let valor = valorKWH * 280;
 console.log('Valor a ser pago por uma residência que consuma 280 quilowatt-hora é de: '+valor); 
-let desconto = valor - (valor * 0.15);
+let desconto = valor -= valor * 0.15;
 console.log('Valor a ser pago por uma residência que consuma 280 quilowatt-hora COM DESCONTO é de: '+desconto); 
 */
 
